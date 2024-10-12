@@ -9,6 +9,7 @@ import Logo from "../elements/Logo";
 import Navbar from "../elements/Navbar";
 import Keluar from "../elements/Keluar";
 import SearchBar from "../elements/SearchBar";
+import TotalDataSiswa from "../elements/TotalDataSiswa";
 
 const Dashboard = () => {
   return (
@@ -31,6 +32,18 @@ const Dashboard = () => {
           <Navbar />
           <SearchBar />
         </div>
+      </div>
+      <div className="flex flex-col w-full mt-3 ml-4 mr-auto mb-5">
+        <TotalDataSiswa />
+      </div>
+      <div className="flex flex-col w-full mt-3 ml-4 mr-auto mb-5">
+        <TotalDataSiswa />
+      </div>
+      <div className="flex flex-col w-full mt-3 ml-4 mr-auto mb-5">
+        <TotalDataSiswa />
+      </div>
+      <div className="flex flex-col w-full mt-3 ml-4 mr-auto mb-5">
+        <TotalDataSiswa />
       </div>
     </div>
   );

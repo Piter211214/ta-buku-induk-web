@@ -23,7 +23,7 @@ const SearchBar = () => {
       <CiSearch className="absolute top-1/2 left-7 transform -translate-y-1/2 text-gray-400 w-[25px] h-[25px]" />
       <input
         ref={inputRef}
-        placeholder="Ctrl + K"
+        placeholder="Cari disini"
         className="w-full h-full pl-14 pr-[20px] rounded-[12px] p-[10px] border border-[#939393] placeholder:font-PTSans font-bold size-4 leading-[20.7px] ml-1 hover:border-2 hover:border-[#5775BA]"
         type="search"
       />

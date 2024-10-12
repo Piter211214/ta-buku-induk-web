@@ -10,7 +10,7 @@ import Dashboard from './components/Dashboard'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>null page</div>,
+    element: <div>Hello World</div>,
     errorElement: <ErrorPage />,
   },
   {
